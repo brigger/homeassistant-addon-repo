@@ -1,0 +1,16 @@
+# Luzern Bus Monitor Configuration
+# Format: departure_station|destination_station|bus_number
+# Lines starting with # are comments and will be ignored
+
+# Bus 6 routes (all available)
+Luzern, Bahnhof|Luzern, Büttenenhalde|6
+Luzern, Dietschiberg|Luzern, Matthof|6
+Luzern, Dietschiberg|Luzern, Werkhofstrasse|6
+
+# Bus 8 routes (all available)
+Luzern, Bahnhof|Luzern, Würzenbach|8
+Luzern, Dietschiberg|Luzern, Hirtenhof|8
+
+# You can add more routes here
+# Example:
+# Station A|Station B|bus_number 
