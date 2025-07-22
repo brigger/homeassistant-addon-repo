@@ -2,7 +2,7 @@ name: "Luzern Bus Monitor"
 version: "1.0.0"
 slug: "luzern_bus_monitor"
 description: "API server for monitoring Luzern bus departures"
-url: "https://github.com/brigger/luzern-bus-monitor"
+url: "https://github.com/brigger/homeassistant-addon-repo"
 arch:
   - armhf
   - armv7

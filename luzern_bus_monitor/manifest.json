@@ -1,0 +1,22 @@
+{
+  "name": "Luzern Bus Monitor",
+  "version": "1.0.0",
+  "slug": "luzern_bus_monitor",
+  "description": "API server for monitoring Luzern bus departures",
+  "url": "https://github.com/brigger/homeassistant-addon-repo",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "init": false,
+  "ports": {
+    "5000/tcp": 5000
+  },
+  "map": ["config:rw"],
+  "options": {
+    "hours_ahead": 2,
+    "scan_interval": 30
+  },
+  "schema": {
+    "hours_ahead": "int(1,24)",
+    "scan_interval": "int(10,300)"
+  }
+} 
